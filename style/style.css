@@ -1,0 +1,57 @@
+body {
+    background: #EDE574;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E1F5C4, #EDE574);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+    background: #FFEEEE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DDEFBB, #FFEEEE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DDEFBB, #FFEEEE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+    background: #1a2a6c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    background: #FFA17F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00223E, #FFA17F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00223E, #FFA17F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+table{
+    border: 10px solid #00223E;
+    border-radius: 10%;
+}
+
+
+/* 
+<header class="container m-5 p-3 shadow-lg">  
+  <h1 class="text-center text-light">MascotaMia</h1>
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link link-light link-offset-2 active " aria-current="page" data-nav="home">Home</a>
+    </li>
+*/
+header ul li a:hover{
+   transform: scale(1.1);
+}
