@@ -1,6 +1,6 @@
 import Mascotas from "../mascotas.js";
 import Vacunas from "../vacunas.js";
-import { showModal } from "../views.js";
+import { showModal,crearVistaEntidad } from "../views.js";
 import { MASCOTAS,MODO_DELETE,MODO_EDIT ,MODO_NEW} from "../config.js";
 import { parsearFechaMDY, parsearFechaHTML } from "../fecha.js";
 
